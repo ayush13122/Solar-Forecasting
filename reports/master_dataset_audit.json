@@ -1,0 +1,488 @@
+{
+    "dataset": {
+        "file": "D:\\ACME INTERNSHIP PROJECT\\Acme internship project\\data\\processed\\PVDAQ_1433_NASA_ERA5_900hPa_Final_Hourly.csv",
+        "rows": 61726,
+        "columns": 25
+    },
+    "schema": {
+        "expected_columns": [
+            "timestamp",
+            "ac_power__5069",
+            "ambient_temp__5062",
+            "module_temp__5063",
+            "poa_irradiance__5061",
+            "dc_voltage__5070",
+            "pr__5067",
+            "kwh_gross__5065",
+            "reading_count",
+            "T2M",
+            "RH2M",
+            "WS10M",
+            "WD10M",
+            "PS",
+            "PRECTOTCORR",
+            "data_quality",
+            "ALLSKY_SFC_SW_DWN",
+            "CLOUD_AMT",
+            "high_cloud_cover",
+            "medium_cloud_cover",
+            "low_cloud_cover",
+            "wind_gust_10m",
+            "snowfall",
+            "wind_speed_900_mb",
+            "wind_direction_900_mb"
+        ],
+        "actual_columns": [
+            "timestamp",
+            "ac_power__5069",
+            "ambient_temp__5062",
+            "module_temp__5063",
+            "poa_irradiance__5061",
+            "dc_voltage__5070",
+            "pr__5067",
+            "kwh_gross__5065",
+            "reading_count",
+            "T2M",
+            "RH2M",
+            "WS10M",
+            "WD10M",
+            "PS",
+            "PRECTOTCORR",
+            "data_quality",
+            "ALLSKY_SFC_SW_DWN",
+            "CLOUD_AMT",
+            "high_cloud_cover",
+            "medium_cloud_cover",
+            "low_cloud_cover",
+            "wind_gust_10m",
+            "snowfall",
+            "wind_speed_900_mb",
+            "wind_direction_900_mb"
+        ],
+        "schema_exact_match": true,
+        "missing_columns": [],
+        "unexpected_columns": []
+    },
+    "dtypes": {
+        "timestamp": "str",
+        "ac_power__5069": "float64",
+        "ambient_temp__5062": "float64",
+        "module_temp__5063": "float64",
+        "poa_irradiance__5061": "float64",
+        "dc_voltage__5070": "float64",
+        "pr__5067": "float64",
+        "kwh_gross__5065": "float64",
+        "reading_count": "int64",
+        "T2M": "float64",
+        "RH2M": "float64",
+        "WS10M": "float64",
+        "WD10M": "float64",
+        "PS": "float64",
+        "PRECTOTCORR": "float64",
+        "data_quality": "str",
+        "ALLSKY_SFC_SW_DWN": "float64",
+        "CLOUD_AMT": "float64",
+        "high_cloud_cover": "float64",
+        "medium_cloud_cover": "float64",
+        "low_cloud_cover": "float64",
+        "wind_gust_10m": "float64",
+        "snowfall": "float64",
+        "wind_speed_900_mb": "float64",
+        "wind_direction_900_mb": "float64"
+    },
+    "timestamp": {
+        "start": "2010-12-31T00:00:00",
+        "end": "2018-01-14T21:00:00",
+        "invalid_timestamp_count": 0,
+        "duplicate_timestamp_count": 0,
+        "missing_hour_count": 0,
+        "largest_gap": "0 days 01:00:00"
+    },
+    "missing_values": {
+        "timestamp": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "ac_power__5069": {
+            "missing_count": 4741,
+            "missing_percentage": 7.681
+        },
+        "ambient_temp__5062": {
+            "missing_count": 1659,
+            "missing_percentage": 2.688
+        },
+        "module_temp__5063": {
+            "missing_count": 1659,
+            "missing_percentage": 2.688
+        },
+        "poa_irradiance__5061": {
+            "missing_count": 1659,
+            "missing_percentage": 2.688
+        },
+        "dc_voltage__5070": {
+            "missing_count": 46490,
+            "missing_percentage": 75.317
+        },
+        "pr__5067": {
+            "missing_count": 33141,
+            "missing_percentage": 53.691
+        },
+        "kwh_gross__5065": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "reading_count": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "T2M": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "RH2M": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "WS10M": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "WD10M": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "PS": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "PRECTOTCORR": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "data_quality": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "ALLSKY_SFC_SW_DWN": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "CLOUD_AMT": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "high_cloud_cover": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "medium_cloud_cover": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "low_cloud_cover": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "wind_gust_10m": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "snowfall": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "wind_speed_900_mb": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "wind_direction_900_mb": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        }
+    },
+    "data_quality": {
+        "reading_count_distribution": {
+            "0": 4741,
+            "1": 837,
+            "2": 732,
+            "3": 709,
+            "4": 54707
+        },
+        "data_quality_distribution": {
+            "Complete": 54707,
+            "Missing": 4741,
+            "Incomplete": 2278
+        }
+    },
+    "numeric_summary": {
+        "ac_power__5069": {
+            "min": -0.75,
+            "max": 383.616,
+            "mean": 64.43994916162586,
+            "median": 0.0,
+            "std": 100.70952157318865
+        },
+        "ambient_temp__5062": {
+            "min": -27.332983,
+            "max": 41.262883,
+            "mean": 12.40758796879873,
+            "median": 12.52128275,
+            "std": 10.996980985151835
+        },
+        "module_temp__5063": {
+            "min": -30.45806625,
+            "max": 70.214,
+            "mean": 14.3645181502697,
+            "median": 12.08334975,
+            "std": 16.066334552496123
+        },
+        "poa_irradiance__5061": {
+            "min": -0.3049999999999999,
+            "max": 1316.28098325,
+            "mean": 192.88077627781894,
+            "median": 7.72601625,
+            "std": 287.5240808646184
+        },
+        "dc_voltage__5070": {
+            "min": 0.0,
+            "max": 447.633333,
+            "mean": 189.34486457661131,
+            "median": 227.174999625,
+            "std": 178.26354270360872
+        },
+        "pr__5067": {
+            "min": 0.0,
+            "max": 115000.0,
+            "mean": 5.528855285113312,
+            "median": 0.7040593008574786,
+            "std": 683.6155481286983
+        },
+        "kwh_gross__5065": {
+            "min": 0.0,
+            "max": 378.628,
+            "mean": 64.41293508408127,
+            "median": 0.0,
+            "std": 101.03895356268691
+        },
+        "reading_count": {
+            "min": 0.0,
+            "max": 4.0,
+            "mean": 3.616887535236367,
+            "median": 4.0,
+            "std": 1.1238866517070534
+        },
+        "T2M": {
+            "min": -25.18,
+            "max": 36.94,
+            "mean": 9.068975310242037,
+            "median": 8.64,
+            "std": 10.984753044736218
+        },
+        "RH2M": {
+            "min": 5.45,
+            "max": 100.0,
+            "mean": 50.19137122120338,
+            "median": 50.37,
+            "std": 21.677542165906054
+        },
+        "WS10M": {
+            "min": 0.01,
+            "max": 16.83,
+            "mean": 3.812716683407316,
+            "median": 3.56,
+            "std": 1.9837514001221486
+        },
+        "WD10M": {
+            "min": 0.0,
+            "max": 359.9,
+            "mean": 210.19084178466122,
+            "median": 242.4,
+            "std": 97.08308239695096
+        },
+        "PS": {
+            "min": 76.66,
+            "max": 80.64,
+            "mean": 79.02675371804426,
+            "median": 79.12,
+            "std": 0.5669301659305748
+        },
+        "PRECTOTCORR": {
+            "min": 0.0,
+            "max": 106.05,
+            "mean": 1.2843469526617635,
+            "median": 0.01,
+            "std": 4.501078018619412
+        },
+        "ALLSKY_SFC_SW_DWN": {
+            "min": 0.0,
+            "max": 1078.53,
+            "mean": 195.5707990150018,
+            "median": 9.61,
+            "std": 268.3682375849042
+        },
+        "CLOUD_AMT": {
+            "min": 0.0,
+            "max": 100.0,
+            "mean": 53.70019489356188,
+            "median": 54.215,
+            "std": 34.79041893032034
+        },
+        "high_cloud_cover": {
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.2946684315834819,
+            "median": 0.09753418,
+            "std": 0.3568884457399323
+        },
+        "medium_cloud_cover": {
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.23320967646038945,
+            "median": 0.056777954000000005,
+            "std": 0.31539808338387865
+        },
+        "low_cloud_cover": {
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.12743056546008977,
+            "median": 0.0,
+            "std": 0.2628249952975995
+        },
+        "wind_gust_10m": {
+            "min": 1.0609336,
+            "max": 27.498795,
+            "mean": 7.116875565102226,
+            "median": 6.86206915,
+            "std": 2.7074916075662006
+        },
+        "snowfall": {
+            "min": 0.0,
+            "max": 0.003216207,
+            "mean": 2.866866717260271e-05,
+            "median": 0.0,
+            "std": 0.00013742866880332683
+        },
+        "wind_speed_900_mb": {
+            "min": 0.012437411,
+            "max": 8.122971,
+            "mean": 2.427796041622396,
+            "median": 2.43427,
+            "std": 1.1619066153903645
+        },
+        "wind_direction_900_mb": {
+            "min": 0.0024641578,
+            "max": 359.98236,
+            "mean": 205.16652218944287,
+            "median": 256.85603,
+            "std": 90.59267709301359
+        }
+    },
+    "target": {
+        "available": 56985,
+        "missing": 4741,
+        "zero": 28039,
+        "negative": 1267,
+        "positive": 27679,
+        "min": -0.75,
+        "max": 383.616,
+        "mean": 64.43994916162586,
+        "median": 0.0
+    },
+    "physical_range_checks": {
+        "poa_irradiance__5061": {
+            "minimum_allowed": 0,
+            "maximum_allowed": null,
+            "below_minimum": 26146,
+            "above_maximum": 0
+        },
+        "ambient_temp__5062": {
+            "minimum_allowed": -50,
+            "maximum_allowed": 70,
+            "below_minimum": 0,
+            "above_maximum": 0
+        },
+        "module_temp__5063": {
+            "minimum_allowed": -50,
+            "maximum_allowed": 100,
+            "below_minimum": 0,
+            "above_maximum": 0
+        },
+        "RH2M": {
+            "minimum_allowed": 0,
+            "maximum_allowed": 100,
+            "below_minimum": 0,
+            "above_maximum": 0
+        },
+        "WS10M": {
+            "minimum_allowed": 0,
+            "maximum_allowed": null,
+            "below_minimum": 0,
+            "above_maximum": 0
+        },
+        "WD10M": {
+            "minimum_allowed": 0,
+            "maximum_allowed": 360,
+            "below_minimum": 0,
+            "above_maximum": 0
+        },
+        "CLOUD_AMT": {
+            "minimum_allowed": 0,
+            "maximum_allowed": 100,
+            "below_minimum": 0,
+            "above_maximum": 0
+        },
+        "high_cloud_cover": {
+            "minimum_allowed": 0,
+            "maximum_allowed": 1,
+            "below_minimum": 0,
+            "above_maximum": 0
+        },
+        "medium_cloud_cover": {
+            "minimum_allowed": 0,
+            "maximum_allowed": 1,
+            "below_minimum": 0,
+            "above_maximum": 0
+        },
+        "low_cloud_cover": {
+            "minimum_allowed": 0,
+            "maximum_allowed": 1,
+            "below_minimum": 0,
+            "above_maximum": 0
+        },
+        "wind_gust_10m": {
+            "minimum_allowed": 0,
+            "maximum_allowed": null,
+            "below_minimum": 0,
+            "above_maximum": 0
+        },
+        "snowfall": {
+            "minimum_allowed": 0,
+            "maximum_allowed": null,
+            "below_minimum": 0,
+            "above_maximum": 0
+        },
+        "wind_speed_900_mb": {
+            "minimum_allowed": 0,
+            "maximum_allowed": null,
+            "below_minimum": 0,
+            "above_maximum": 0
+        },
+        "wind_direction_900_mb": {
+            "minimum_allowed": 0,
+            "maximum_allowed": 360,
+            "below_minimum": 0,
+            "above_maximum": 0
+        }
+    },
+    "solar_behavior": {
+        "rows_with_valid_poa_and_power": 56980,
+        "low_irradiance_rows": 26415,
+        "daytime_rows": 30565,
+        "mean_power_low_irradiance": -0.008338052769890846,
+        "mean_power_daytime": 120.12962855027537
+    },
+    "ml_readiness": {
+        "usable_target_rows": 56985,
+        "initial_ml_ready": true
+    }
+}

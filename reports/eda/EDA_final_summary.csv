@@ -1,0 +1,14 @@
+item,value
+rows,56980
+columns,33
+start_timestamp,2010-12-31 00:00:00
+end_timestamp,2018-01-14 21:00:00
+duplicate_timestamps,0
+missing_values_total,0
+target_mean,64.44073437819411
+target_median,0.0
+target_std,100.70151079189942
+target_min,0.0
+target_max,383.616
+target_zero_or_near_zero_pct,53.173043173043176
+target_active_pct,46.82695682695683

@@ -1,0 +1,12 @@
+item,value
+Best iteration,687.0
+Test records,5522.0
+Model 2 MAE,12.213250567854553
+Model 2 RMSE,24.394948612562676
+Model 2 R2,0.9234902181056907
+Persistence MAE,17.619729336532657
+Persistence RMSE,35.71580048375402
+Persistence R2,0.8360022366076034
+Mean residual,4.52797227840301
+Model 2 better than persistence,1689.0
+Model 2 worse/equal than persistence,3833.0

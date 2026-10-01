@@ -1,0 +1,10 @@
+metric,value
+ambient_mean,12.227962809229846
+ambient_median,12.331441250000001
+ambient_std,10.970930840066309
+module_mean,14.23846689930385
+module_median,11.921108
+module_std,16.17017783741826
+module_minus_ambient_mean,2.010504090074003
+module_minus_ambient_median,-1.0907998749999996
+module_minus_ambient_std,7.652485587562112

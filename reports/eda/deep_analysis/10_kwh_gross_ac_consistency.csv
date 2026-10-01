@@ -1,0 +1,9 @@
+metric,value
+valid_rows,24973.0
+ratio_mean,1.0456807003753676
+ratio_median,1.0
+ratio_std,0.29647400425724074
+ratio_10th_percentile,1.0
+ratio_90th_percentile,1.0
+ratio_min,0.19047619047619047
+ratio_max,12.987804878048781

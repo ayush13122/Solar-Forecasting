@@ -1,0 +1,7 @@
+metric,value
+mean_utilization,0.1434311217463366
+median_utilization,0.0
+std_utilization,0.22413975870704117
+max_utilization,0.8538461538461538
+95th_percentile,0.6655092592592593
+99th_percentile,0.7500890313390314

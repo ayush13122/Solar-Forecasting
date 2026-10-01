@@ -1,0 +1,96 @@
+# ============================================================
+# PYTHON / VIRTUAL ENVIRONMENTS
+# ============================================================
+
+.venv/
+.venv_tf/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+
+# ============================================================
+# IDE / LOCAL PROJECT FILES
+# ============================================================
+
+.idea/
+*.iml
+
+
+# ============================================================
+# STREAMLIT / LOCAL SECRETS
+# ============================================================
+
+.streamlit/secrets.toml
+
+
+# ============================================================
+# LOCAL / TEMPORARY FILES
+# ============================================================
+
+*.log
+*.nc
+
+
+# ============================================================
+# RAW DATA — NOT REQUIRED FOR DASHBOARD DEPLOYMENT
+# ============================================================
+
+data/raw/
+
+
+# ============================================================
+# PROCESSED DATA
+# Keep only the 3 datasets required by the dashboard
+# ============================================================
+
+data/processed/*
+
+!data/processed/Model1_WeatherSolar_NextHour.csv
+!data/processed/Model2_Intraday_NextHour.csv
+!data/processed/PVDAQ_1433_NASA_ERA5_900hPa_Final_Hourly.csv
+
+
+# ============================================================
+# UNUSED MODEL-EXPERIMENT OUTPUTS
+# ============================================================
+
+data/processed/Model1_V15_Final_Test_Predictions.csv
+data/processed/Model1_V15_Final_Test_Results.csv
+data/processed/Model1_V16_LSTM_Validation.csv
+data/processed/Model1_V17_Distribution_Shift_Analysis.csv
+data/processed/Model1_V17_Yearly_Shift_Summary.csv
+data/processed/Model1_V17_Category_Shift.csv
+data/processed/Model1_V18_Final_Test_Predictions.csv
+data/processed/Model1_V18_Final_Test_Results.csv
+data/processed/Model1_V18_Recency_Weighted_Validation.csv
+data/processed/Model1_V18_Recency_Weighted_Summary.csv
+data/processed/Model1_V19_Log_Target_Validation.csv
+data/processed/Model1_V20_Residual_Calibration_Validation.csv
+data/processed/Final_Model_Comparison_2017_2018.csv
+
+
+# ============================================================
+# LARGE EXPLAINABILITY SAMPLE NOT USED BY DASHBOARD
+# ============================================================
+
+reports/explainability/model2_shap_values_sample.csv
+
+
+# ============================================================
+# OLD DASHBOARD VERSIONS — V8 IS THE DEPLOYMENT VERSION
+# ============================================================
+
+44_streamlit_dashboard.py
+44_streamlit_dashboard_v2.py
+44_streamlit_dashboard_v3.py
+44_streamlit_dashboard_v5.py
+44_streamlit_dashboard_v6.py
+44_streamlit_dashboard_v7.py
+45_final_solar_forecasting_story_dashboard.py
+46_interviewer_solar_forecasting_dashboard.py
+46_interviewer_solar_forecasting_dashboard_v2.py
+46_interviewer_solar_forecasting_dashboard_v4.py
+46_interviewer_solar_forecasting_dashboard_v5.py
+46_interviewer_solar_forecasting_dashboard_v6.py
+46_interviewer_solar_forecasting_dashboard_v7.py

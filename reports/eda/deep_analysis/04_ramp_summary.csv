@@ -1,0 +1,9 @@
+metric,value
+mean_change,-0.08258734129324945
+median_change,0.0
+std_change,41.571904781475574
+min_change,-290.6666666666667
+max_change,293.0
+mean_absolute_change,22.487215021247167
+95th_percentile_absolute_change,94.0
+99th_percentile_absolute_change,142.0
