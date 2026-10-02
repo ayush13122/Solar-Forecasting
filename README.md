@@ -130,14 +130,57 @@ ML-Ready Dataset
 
 
 📊 Dataset Transformation
-Stage	Dataset	Shape	Purpose
-Integrated Master	PVDAQ_1433_NASA_ERA5_900hPa_Final_Hourly.csv	61,726 × 25	Final integrated hourly plant + environmental master
-ML-Ready	PVDAQ_1433_ML_Ready_Preprocessed_Hourly.csv	56,980 × 28	Evidence-based preprocessing and ML-ready features
-Model 1	Model1_WeatherSolar_NextHour.csv	56,275 × 29	Weather/solar-based T+1 forecasting
-Model 2	Model2_Intraday_NextHour.csv	56,275 × 30	Intraday T+1 forecasting with current AC power
 
+The project moves through four main dataset stages:
+1. Integrated Master Dataset
 
-The public deployment repository contains the processed datasets required by the dashboard. Raw plant and reanalysis files are not required for running the deployed application.
+**File:** `PVDAQ_1433_NASA_ERA5_900hPa_Final_Hourly.csv`  
+**Shape:** `61,726 × 25`
+Final integrated hourly dataset combining:
+- Real PVDAQ plant measurements
+- NASA POWER environmental variables
+- ERA5 cloud and atmospheric variables
+- 900 hPa wind features
+**Purpose:** Serves as the main integrated plant + environmental master dataset.
+
+2. ML-Ready Dataset
+
+**File:** `PVDAQ_1433_ML_Ready_Preprocessed_Hourly.csv`  
+**Shape:** `56,980 × 28`
+
+Produced after evidence-based:
+- Missing-value handling
+- Physical-value checks
+- Sensor-quality decisions
+- Solar-position feature generation
+- ML feature preparation
+
+**Purpose:** Provides the cleaned and traceable feature space used to construct the forecasting datasets.
+
+3. Model 1 Forecasting Dataset
+
+**File:** `Model1_WeatherSolar_NextHour.csv`  
+**Shape:** `56,275 × 29`
+
+**Input:** 26 weather, irradiance, solar-position, and temporal features  
+**Target:** Next-hour AC power (`T+1`)
+
+**Purpose:** Evaluate weather/solar-only next-hour forecasting without current AC power.
+
+4. Model 2 Forecasting Dataset
+
+**File:** `Model2_Intraday_NextHour.csv`  
+**Shape:** `56,275 × 30`
+
+**Input:** 27 features = 26 Model 1 features + current-hour AC power  
+**Target:** Next-hour AC power (`T+1`)
+
+**Purpose:** Intraday next-hour forecasting using both environmental conditions and the current plant operating state.
+
+Deployment Note:
+
+The public deployment repository contains only the processed datasets required by the dashboard. Raw plant and reanalysis files are intentionally excluded from the deployed application.
+
 
 
 🧹 Data Quality & Preprocessing
