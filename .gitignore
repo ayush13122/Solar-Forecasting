@@ -94,3 +94,5 @@ reports/explainability/model2_shap_values_sample.csv
 46_interviewer_solar_forecasting_dashboard_v5.py
 46_interviewer_solar_forecasting_dashboard_v6.py
 46_interviewer_solar_forecasting_dashboard_v7.py
+src_backup/
+src_legacy/
